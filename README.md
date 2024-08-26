@@ -11,9 +11,6 @@ Le cours est fléché par un programme bien précis.
 
 > [!IMPORTANT]
 > La notation : 
-
->- Une note de contrôle continu (20 %)
-
->- Une note de D.S. sous la forme d'un Q.C.M. (30 %)
-
->- Une note d'examen terminal qui portera sur la réalisation d'un code et une question ouverte (50 %)
+> - Une note de contrôle continu (20 %)
+> - Une note de D.S. sous la forme d'un Q.C.M. (30 %)
+> - Une note d'examen terminal qui portera sur la réalisation d'un code et une question ouverte (50 %)
