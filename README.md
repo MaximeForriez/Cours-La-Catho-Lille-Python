@@ -1,6 +1,6 @@
 # Initiation à la programmation `Python`
 
-## Cours 2024-2025 Licence Droit-Économie-Gestion, mention Économie et Gestion L3/S5 - T.D. 18h
+## Cours 2024-2025 Licence Droit-Économie-Gestion, mention Économie et Gestion L3/S5 - T.D. 9h
 
 Les étudiants doivent impérativement se créer un compte sur le site https://replit.com/~ afin de ne pas avoir à installer Python sur leur machine personnelle.
 
