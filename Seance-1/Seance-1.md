@@ -321,7 +321,7 @@ Pour solutionner le problème, il faut construire une solution plus complexe en 
 
 On commence d'abord par vérifier si l'âge est négatif, car la valeur l'est, il est inutile de poursuivre l'instruction. Puis, on poursuit par vérifier que l'âge ne soit pas trop grand en créant au préalable une constante matérialisant un âge indépassable `AGE_MAXIMUM`. Ensuite, on vérifie si l'âge est compris entre 0 et l'âge légal, auquel cas l'accès est refusé. Enfin, si toutes les propositions précédentes sont fausses, avec `else`, on autorise l'accès.
 
->[!TIP] Si vous voulez tester votre compréhension, vous pouvez essayer avec l'aide de la documentation d'ajouter une condition qui vérifie si la valeur saisie est bien un nombre entier.
+> [!TIP] Si vous voulez tester votre compréhension, vous pouvez essayer avec l'aide de la documentation d'ajouter une condition qui vérifie si la valeur saisie est bien un nombre entier.
 
 ## Les boucles conditionnelles
 
@@ -329,7 +329,7 @@ L'informatique a pour objectif principal de gérer les tâches répétitives. Da
 
 - les **boucles conditionnelles** ;
 
-- les **boucles de parcours de séquence**
+- les **boucles de parcours de séquence**.
 
 Une boucle conditionnelles `while` a besoin d'une variable permettant de l'arrêter. Pour bien comprendre, demandons d'afficher les valeurs entières entre 0 et 4. Pour ce, on initialise la boucle avec la variable `compteur`. On lui affecte la valeur 0.
 
@@ -344,7 +344,7 @@ Une boucle conditionnelles `while` a besoin d'une variable permettant de l'arrê
 La boucle conditionnelle affiche `0`, réaffecte la variable `compteur` en ajoutant 1, puis on retourne en début de la boucle et on revérifie la condition. `compteur = 1`, il s'affiche alors `1`, puis la variable `compteur` en ajoutant 1, et ainsi de suite. La boucle s'arrête lorsque `compteur = 5` la condition n'est plus respectée, la boucle s'arrête. La console a affiché successivement `1 2 3 4`.
 
 > [!WARNING]
-> Il faut éviter les boucles infinies. Non pas qu'elles soient inutiles, votre ordinateur démarre avec une boucle infinie afin que vous puissiez l'utiliser, mais il est prévu un point d'arrêt, l'extinction de votre ordinateur.
+> Il faut éviter les boucles infinies. Non pas qu'elles soient inutiles, votre ordinateur démarre avec une boucle infinie afin que vous puissiez l'utiliser, mais il est **toujours** prévu un point d'arrêt, l'extinction de votre ordinateur.
 
 `arret = False`
 
@@ -363,6 +363,8 @@ Exemple 1. Parcourir une liste de caractères `A B C`
 `for element in "A", "B", "C":`
 
 `	print(element)`
+
+La variable `element` est une variable temporaire qui se voit successivement affecter `A`, `B` et `C`.
 
 Exemple 2. Parcourir une liste de nombres. Une fonction existe pour créer une suite de nombre, `range(...)`. Elle prend en paramètres le début de la liste de nombres voulue, la dernière valeur, celle-ci étant exclue de la liste, et le pas de l'itération générée. Par exemple, `range(1, 10, 1)` crée la séquence `1 2 3 4 5 6 7 8 9`, mais `range(1, 10, 2)` crée la séquence `2 4 6 8`. Il est à noter que le pas n'est pas obligatoirement un nombre entier et qu'il est possible de ne pas en mettre, dans ce cas, la valeur est par défaut 1.
 
