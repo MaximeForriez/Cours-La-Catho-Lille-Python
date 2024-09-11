@@ -1,6 +1,6 @@
 # Séance n°1
 
-Pourquoi apprendre Python ? Pour beaucoup, Python sera l'Excel de demain, c'est-à-dire il sera plus judicieux d'opérer des traitements avec Python qu'Excel. C'est normal, la société évolue, et Excel est inapproprié pour opérer un traitement automatique performant, surtout lorsque la masse et les sources de données sont très importantes, or nous  sommes dans un monde de données massives. Le tableur n'est plus le meilleur outil pour tenir un tableau de bord par exemple.
+Pourquoi apprendre `Python` ? Pour beaucoup, `Python` sera l'`Excel` de demain, c'est-à-dire il sera plus judicieux d'opérer des traitements avec `Python` qu'`Excel`. C'est normal, la société évolue, et `Excel` est inapproprié pour opérer un traitement automatique performant, surtout lorsque la masse et les sources de données sont très importantes, or nous  sommes dans un monde de données massives. Le tableur n'est plus le meilleur outil pour tenir un tableau de bord par exemple.
 
 ## Documentation
 
