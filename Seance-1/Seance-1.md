@@ -93,7 +93,7 @@ Le plus simple pour commencer est de créer une sortie.
 
 Tester le code pour voir si vous avez compris.
 
->[!TIP]
+> [!TIP]
 > Les chaînes de caractères peuvent s'écrire de quatre manières différentes : `''`, `""`, `'''`, et `"""`. Les guillemets simples ou doubles permettent d'écrire un texte sur une seule ligne, tandis que les guillements triples simples ou doubles permettent d'écrire du texte sur plusieurs lignes.
 
 ## Les variables
@@ -516,7 +516,10 @@ Il s'affiche bien en lançant le `Run` : `Bonjour ! Test réussi !`
 
 Il est important de noter que l'on appelle la fonction (ou l'objet) avec `from` dans le fichier `toto` (sans son extension).
 
-## Notes de bas de page
+> [!IMPORTANT]
+> Le module n'effectue pas grand-chose. Il se charge et son programme se termine aussitôt. Il sert essentiellement à organiser efficacement son code.
+
+
 
 [^1]: Les versions 2 et 3 sont incompatibles, même dans la syntaxe de base. Dit autrement, si la [version 4](https://answerpython.com/why-python-4-may-never-arrive/) annoncée venait à être publiée, il faudra s'attendre à la même incompatibilité.
 
