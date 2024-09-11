@@ -150,7 +150,8 @@ Il est possible de réaffecter une variable par elle-même.
 
 Ici, à la première ligne, `nb` vaut 1. À la seconde ligne, on effectue toujours le calcul du membre de droite, ici `nb + 1`, valant 2, en avant d'opérer à sa réaffectation à l'étiquette `nb`. De fait, il s'affichera `2` sur la console.
 
-> [!NOTE] En informatique, les valeurs constantes sont des variables particulières. Normalement, une constante est une variable qui n'est lisible qu'en lecture seule, c'est-à-dire qu'il est impossible de réaffecter sa valeur. En `Python`, ce type n'existe pas, mais, par convention, toute **constante** doit être écrite en majuscule.
+> [!NOTE]
+> En informatique, les valeurs constantes sont des variables particulières. Normalement, une constante est une variable qui n'est lisible qu'en lecture seule, c'est-à-dire qu'il est impossible de réaffecter sa valeur. En `Python`, ce type n'existe pas, mais, par convention, toute **constante** doit être écrite en majuscule.
 
 `#-Déclaration et affectation d'une constante`
 
