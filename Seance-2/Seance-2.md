@@ -131,13 +131,13 @@ Les fonctions et les méthodes principales sont :
 
 - `meta = reader.metadata` pour lire les métadonnées de la page P.D.F. :
 
-+ `meta.author` ;
+	+ `meta.author` ;
 
-+ `meta.producer` ;
+	+ `meta.producer` ;
 
-+ `meta.subject` ;
+	+ `meta.subject` ;
 
-+ `meta.title`.
+	+ `meta.title`.
 
 - `writer = pypdf.PdfWriter()` pour écrire des éléments dans le P.D.F. ;
 
