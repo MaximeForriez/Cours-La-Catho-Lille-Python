@@ -8,7 +8,7 @@ Un objet traite un type de données particulier. Tout objet possède :
 
 - des méthodes.
 
-Les propriétés désignent les variables propres à l'objet. Les méthodes renvoient aux fonctions propres de cet objet. Dans le cours précédent, on avait vu l'objet `math`. Il permt de comprendre simplement ce qu'est un objet.
+Les propriétés désignent les variables propres à l'objet. Les méthodes renvoient aux fonctions propres de cet objet. Dans le cours précédent, on avait vu l'objet `math`. Il permet de comprendre simplement ce qu'est un objet.
 
 L'objet `math` possède des constantes `pi` et `e` par exemple. On les appelle en tapant :
 
