@@ -20,5 +20,5 @@ Par ailleurs, les tutoriels sur Youtube sont très nombreux en français.
 
 
 
-> [!WARNING]
-> [^1]: Les versions 2 et 3 sont incompatibles, même dans la syntaxe de base. Dit autrement, si la [version 4](https://answerpython.com/why-python-4-may-never-arrive/) annoncée venait à être publiée, il faudra s'attendre à la même incompatibilité.
+[^1]: > [! WARNING]
+> Les versions 2 et 3 sont incompatibles, même dans la syntaxe de base. Dit autrement, si la [version 4](https://answerpython.com/why-python-4-may-never-arrive/) annoncée venait à être publiée, il faudra s'attendre à la même incompatibilité.
