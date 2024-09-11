@@ -22,6 +22,13 @@ Tout programme informatique offre la possibilité à l'utilisateur de commenter 
 
 `# Ceci est un commentaire en Python`
 
+On commence tout programme `Python` par la déclaration de l'encodage des caractères utilisés :
+
+`#coding:utf8`
+
+> [!WARNING]
+> Le `#` contenu dans `#coding:utf8` n'est pas un commentaire, mais une déclaration. Ce sera l'unique exception de toutes les séances.
+
 ## Algorithmique
 
 Le mot « algorithmie » vient du nom du mathématicien persan, Muhammad ibn Musa al-Khuwarizmi dit Al Khuwarizmi (IX<sup>e</sup> siècle), latinisé en Algoritmi.
