@@ -159,6 +159,16 @@ Ici, à la première ligne, `nb` vaut 1. À la seconde ligne, on effectue toujou
 
 `print(PI)`
 
+Il est possible de libérer de l'espace mémoire en supprimant une variable avec la fonction `del(...)`. On peut ainsi supprimer toutes  les variables créées précédemment.
+
+`del(nom)`
+
+`del(test)`
+
+`del(nb)`
+
+`del(PI)`
+
 ## Entrée-Sortie. Exemple de concaténation
 
 En premier programme, nous avions vu ce qu'était une sortie. Voyons rapidement ce qu'est une entrée.
