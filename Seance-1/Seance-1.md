@@ -504,15 +504,15 @@ Pour importer une fonction d'un autre fichier `Python`, on peut :
 
 2. y taper
 
-	def test():
+		def test():
 
-		print("Bonjour ! Test réussi !")
+			print("Bonjour ! Test réussi !")
 
 3. taper dans `main.py`
 
-	from toto import test
+		from toto import test
 
-	test()
+		test()
 
 Il s'affiche bien en lançant le `Run` : `Bonjour ! Test réussi !`
 
