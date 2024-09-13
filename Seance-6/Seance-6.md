@@ -2,6 +2,8 @@
 
 ## L'objet `os`
 
+[Documentation officielle](https://docs.python.org/3/library/os.html)
+
 `os` possède plusieurs méthodes importantes.
 
 - `os.getcwd()` renvoie le répertoire courant.
@@ -46,4 +48,8 @@
 
 ## L'objet `shutil`
 
+- [Documentation officielle](https://docs.python.org/3/library/shutil.html)
 
+- [Documentation officielle](https://python-simple.com/python-modules-fichiers/shutil.php)
+
+- [Documentation non officielle en français](https://python-simple.com/python-modules-fichiers/shutil.php)

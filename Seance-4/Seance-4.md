@@ -119,6 +119,28 @@ On peut créer un dictionnaire avec les paramètres d'une fonction en appelant. 
 
 ## L'objet `PIL.Image`
 
+-[Documentation officielle](https://pillow.readthedocs.io/en/stable/)
+
+-[Documentation non officielle](https://he-arc.github.io/livre-python/pillow/index.html)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

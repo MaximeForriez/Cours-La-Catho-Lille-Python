@@ -111,11 +111,11 @@ La concaténation avec `+` n'a que des variables de type `str`, à la différenc
 
 La documentation est :
 
-- [https://pypi.org/project/pypdf/](https://pypi.org/project/pypdf/) ;
+- [La documentation officielle du paquet](https://pypi.org/project/pypdf/) ;
 
-- [la documentation PyPDF](https://pypdf.readthedocs.io/en/stable/) ;
+- [la documentation officielle](https://pypdf.readthedocs.io/en/stable/) ;
 
-- [la documentation PyPDF en français](https://products.documentprocessing.com/fr/merger/python/pypdf/).
+- [la documentation non officielle en français](https://products.documentprocessing.com/fr/merger/python/pypdf/).
 
 `import pypdf`
 
