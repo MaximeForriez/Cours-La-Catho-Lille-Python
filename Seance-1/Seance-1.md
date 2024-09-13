@@ -193,35 +193,35 @@ Il existe les **opérateurs arithmétiques** :
 
 À partir des opérateurs arithmétiques `+`, `-`, `*`, `/` et `%`, il est possible de compléter la liste des **opérateurs d'affectation**. Le plus simple est de les tester avec ce code qui reprend les cinq premières opérations précédentes.
 
-var = 1
+	var = 1
 
-var += 1
+	var += 1
 
-print(var)
+	print(var)
 
-var = 4
+	var = 4
 
-var -= 6
+	var -= 6
 
-print(var)
+	print(var)
 
-var = 3
+	var = 3
 
-var *= 5
+	var *= 5
 
-print(var)
+	print(var)
 
-var = 3
+	var = 3
 
-var /= 5
+	var /= 5
 
-print(var)
+	print(var)
 
-var = 5
+	var = 5
 
-var %= 2
+	var %= 2
 
-print(var)
+	print(var)
 
 Les **opérateurs de comparaison** dans les instructions sont :
 
