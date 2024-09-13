@@ -98,7 +98,7 @@ Tester le code pour voir si vous avez compris.
 
 ## Les variables
 
-Une *variable* est une valeur qui est enregistrée temporairement dans la mémoire vive de votre ordinateur (ou R.A.M.). Toute variable possède un type. En `Python`, il existe quatre types de base :
+Une **variable** est une valeur qui est enregistrée temporairement dans la mémoire vive de votre ordinateur (ou R.A.M.). Toute variable possède un type. En `Python`, il existe quatre types de base :
 
 - `int` pour les entiers ;
 
@@ -185,9 +185,9 @@ La fonction `print(...)` contient une **concaténation**. Lorsque vous avez un t
 
 ## Les opérateurs
 
-Nous avons déjà croisé l'*opérateur d'affectation* : `=`.
+Nous avons déjà croisé l'**opérateur d'affectation** : `=`.
 
-Il existe les *opérateurs arithmétiques* :
+Il existe les **opérateurs arithmétiques** :
 
 - l'addition `print(1 + 1)` (sortie: `2`) ;
 
