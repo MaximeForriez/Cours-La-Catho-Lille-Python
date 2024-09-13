@@ -28,11 +28,11 @@
 
 - `os.path.join('` répertoire `, ` fichier.py `')` adapte le séparateur des chemins en fonction du système d'exploitation.
 
-	base = 'c:\\Users\\Max'
+		base = 'c:\\Users\\Max'
 
-	filename = 'test.py'
+		filename = 'test.py'
 
-	os.path.join(base, filename)
+		os.path.join(base, filename)
 
 - `os.path.split('` chemin `')` extrait le chemin du nom du fichier avec pour résultat un tuple. L'indice `0` renvoie l'adresse du répertoire et l'indice `1` renvoie le nom du fichier.
 
