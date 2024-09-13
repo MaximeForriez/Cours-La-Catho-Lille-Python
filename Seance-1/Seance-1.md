@@ -339,7 +339,8 @@ Pour solutionner le problème, il faut construire une solution plus complexe en 
 
 On commence d'abord par vérifier si l'âge est négatif, car la valeur l'est, il est inutile de poursuivre l'instruction. Puis, on poursuit par vérifier que l'âge ne soit pas trop grand en créant au préalable une constante matérialisant un âge indépassable `AGE_MAXIMUM`. Ensuite, on vérifie si l'âge est compris entre 0 et l'âge légal, auquel cas l'accès est refusé. Enfin, si toutes les propositions précédentes sont fausses, avec `else`, on autorise l'accès.
 
-> [!TIP] Si vous voulez tester votre compréhension, vous pouvez essayer avec l'aide de la documentation d'ajouter une condition qui vérifie si la valeur saisie est bien un nombre entier.
+> [!TIP]
+> Si vous voulez tester votre compréhension, vous pouvez essayer avec l'aide de la documentation d'ajouter une condition qui vérifie si la valeur saisie est bien un nombre entier.
 
 ## Les boucles conditionnelles
 
