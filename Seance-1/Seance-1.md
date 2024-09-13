@@ -20,11 +20,11 @@ Par ailleurs, les tutoriels sur Youtube sont très nombreux en français.
 
 Tout programme informatique offre la possibilité à l'utilisateur de commenter son code. Au cours de votre apprentissage, n'hésitez pas à utiliser cette fonctionnalité pour ajouter **vos** éléments de compréhension.
 
-`# Ceci est un commentaire en Python`
+	# Ceci est un commentaire en Python
 
 On commence tout programme `Python` par la déclaration de l'encodage des caractères utilisés :
 
-`#coding:utf8`
+	#coding:utf8
 
 > [!WARNING]
 > Le `#` contenu dans `#coding:utf8` n'est pas un commentaire, mais une déclaration. Ce sera l'unique exception de toutes les séances.
@@ -85,9 +85,7 @@ L'écran de travail se divise en trois zones :
 
 Le plus simple pour commencer est de créer une sortie.
 
-`#Exemple d'affichage (sortie)`
-
-`print("Bonjour tout le monde !")`
+	print("Bonjour tout le monde !")
 
 `print(...)` est la fonction permettant d'écrire un retour sur la console d'exécution. Les `"` permettent de créer une zone de texte (`String`, chaîne de caractères en informatique).
 
@@ -110,74 +108,66 @@ Une **variable** est une valeur qui est enregistrée temporairement dans la mém
 
 Le typage en `Python` est dit **faible** et **dynamique**. Il est **faible** parce que le langage déduit le type de variables. Toute variable possède une **étiquette**, c'est-à-dire un nom, lui permettant d'être retrouvée en mémoire, et une **valeur** qui lui est affectée par l'opérateur `=`. Par exemple,
 
-`#-Affectation`
+	nom = "Forriez"
 
-`nom = "Forriez"`
-
-`print(nom)`
+	print(nom)
 
 Dans le cadre d'un typage faible, le programme sait que la variable `nom` est une chaîne de caractères `str`. De même,
 
-`test = True`
+	test = True
 
-print(test)`
+	print(test)
 
 Le programme sait que la variable `test` est une variable booléenne, *etc*. Toutefois, il est possible d'utiliser des fonctions `int(...)`, `float(...)`, `str(...)` et `bool(...)` pour forcer le castage des variables, et ainsi avoir le bon type. Un prochain exemple l'illustrera.
 
 Le typage est **dynamique**, car il est possible de changer le type d'une variable avec une simple nouvelle affectation, une **réaffectation**.
 
-`nom = "Forriez"`
+	nom = "Forriez"
 
-`print(nom)`
+	print(nom)
 
-`#-Réaffectation`
+	nom = True
 
-`nom = True`
-
-`print(nom)`
+	print(nom)
 
 Le premier `print(...)` affiche `Forriez`, le second `True`.
 
 Il est possible de réaffecter une variable par elle-même. 
 
-`#-Réaffectation avec la même variable`
+	nb = 1	
 
-`nb = 1`
+	nb = nb + 1
 
-`nb = nb + 1`
-
-`print(nb)`
+	print(nb)
 
 Ici, à la première ligne, `nb` vaut 1. À la seconde ligne, on effectue toujours le calcul du membre de droite, ici `nb + 1`, valant 2, en avant d'opérer à sa réaffectation à l'étiquette `nb`. De fait, il s'affichera `2` sur la console.
 
 > [!NOTE]
 > En informatique, les valeurs constantes sont des variables particulières. Normalement, une constante est une variable qui n'est lisible qu'en lecture seule, c'est-à-dire qu'il est impossible de réaffecter sa valeur. En `Python`, ce type n'existe pas, mais, par convention, toute **constante** doit être écrite en majuscule.
 
-`#-Déclaration et affectation d'une constante`
+	PI = 3.1416
 
-`PI = 3.1416`
-
-`print(PI)`
+	print(PI)
 
 Il est possible de libérer de l'espace mémoire en supprimant une variable avec la fonction `del(...)`. On peut ainsi supprimer toutes  les variables créées précédemment.
 
-`del(nom)`
+	del(nom)
 
-`del(test)`
+	del(test)
 
-`del(nb)`
+	del(nb)
 
-`del(PI)`
+	del(PI)
 
 ## Entrée-Sortie. Exemple de concaténation
 
 En premier programme, nous avions vu ce qu'était une sortie. Voyons rapidement ce qu'est une entrée.
 
-`age = input("Quel est votre âge ? ")`
+	age = input("Quel est votre âge ? ")
 
-`age = int(age)`
+	age = int(age)
 
-`print("Vous avez {} ans.".format(age))`
+	print("Vous avez {} ans.".format(age))
 
 On déclare l'entrée avec `input(...)`, la fonction contenant la requête demandée par la machine. On affecte une variable à la réponse de l'utilisateur, ici `age`. Le problème est que la fonction `input` ne renvoie que des chaînes de caractères, même si l'entrée est un nombre ou un booléen. C'est là que l'on utilise les fonctions de castage. Ici, on réaffecte `age` en transformant l'entrée en nombre entier.
 
@@ -203,35 +193,35 @@ Il existe les **opérateurs arithmétiques** :
 
 À partir des opérateurs arithmétiques `+`, `-`, `*`, `/` et `%`, il est possible de compléter la liste des **opérateurs d'affectation**. Le plus simple est de les tester avec ce code qui reprend les cinq premières opérations précédentes.
 
-`var = 1`
+var = 1
 
-`var += 1`
+var += 1
 
-`print(var)`
+print(var)
 
-`var = 4`
+var = 4
 
-`var -= 6`
+var -= 6
 
-`print(var)`
+print(var)
 
-`var = 3`
+var = 3
 
-`var *= 5`
+var *= 5
 
-`print(var)`
+print(var)
 
-`var = 3`
+var = 3
 
-`var /= 5`
+var /= 5
 
-`print(var)`
+print(var)
 
-`var = 5`
+var = 5
 
-`var %= 2`
+var %= 2
 
-`print(var)`
+print(var)
 
 Les **opérateurs de comparaison** dans les instructions sont :
 
@@ -267,45 +257,45 @@ Les conditions permettent de mettre en œuvre les variables et les opérateurs. 
 
 2. On teste si l'âge entré est strictement inférieur à l'âge légal. Si c'est vrai, on affiche que l'accès est refusé. Si c'est faux, on affiche que l'accès est autorisé.
 
-`age = 15`
+	age = 15
 
-`AGE_LEGAL = 18`
+	AGE_LEGAL = 18
 
-`if age < AGE_LEGAL:`
+	if age < AGE_LEGAL:
 
-`	print("Accès refusé")`
+		print("Accès refusé")`
 
-`else:`
+	else:
 
-`	print("Accès autorisé")`
+		print("Accès autorisé")
 
 Cette proposition conditionnelle n'est pas acceptable, car elle ne permet pas de visualiser toutes les erreurs possibles. Par exemple, si vous mettez un âge négatif, la condition traitera l'information comme correcte, alors qu'un âge négatif est impossible. On peut corriger la condition en créant un intervalle. Il est possible de l'écrire de deux manières :
 
-`age = 15`
+	age = 15
 
-`AGE_LEGAL = 18`
+	AGE_LEGAL = 18
 
-`if 0 < age < AGE_LEGAL:`
+	if 0 < age < AGE_LEGAL:
 
-`	print("Accès refusé")`
+		print("Accès refusé")
 
-`else:`
+	else:
 
-`	print("Accès autorisé")`
+		print("Accès autorisé")
 
 ou
 
-`age = 15`
+	age = 15
 
-`AGE_LEGAL = 18`
+	AGE_LEGAL = 18
 
-`if age >= 0 and age < AGE_LEGAL:`
+	if age >= 0 and age < AGE_LEGAL:
 
-`	print("Accès refusé")`
+		print("Accès refusé")
 
-`else:`
+	else:
 
-`	print("Accès autorisé")`
+		print("Accès autorisé")
 
 Il faut faire deux remarques si vous testez cette solution.
 
@@ -315,27 +305,27 @@ Il faut faire deux remarques si vous testez cette solution.
 
 Pour solutionner le problème, il faut construire une solution plus complexe en introduisant la commande `elif`.
 
-`age = 15`
+	age = 15
 
-`AGE_LEGAL = 18`
+	AGE_LEGAL = 18
 
-`AGE_MAXIMUM = 130`
+	AGE_MAXIMUM = 130
 
-`if age <= 0:`
+	if age <= 0:
 
-`	print("Votre âge ne peut pas être négatif. Vous avez écrit n'importe quoi !")`
+		print("Votre âge ne peut pas être négatif. Vous avez écrit n'importe quoi !")
 
-`elif age >= AGE_MAXIMUM:`
+	elif age >= AGE_MAXIMUM:
 
-`	print("Soit vous êtes un vénérable ancien ! Soit vous avez écrit n'importe !")`
+		print("Soit vous êtes un vénérable ancien ! Soit vous avez écrit n'importe !")
 
-`elif 0 < age < AGE_LEGAL:`
+	elif 0 < age < AGE_LEGAL:
 
-`	print("Accès refusé")`
+		print("Accès refusé")
 
-`else:`
+	else:
 
-`	print("Accès autorisé")`
+		print("Accès autorisé")
 
 On commence d'abord par vérifier si l'âge est négatif, car la valeur l'est, il est inutile de poursuivre l'instruction. Puis, on poursuit par vérifier que l'âge ne soit pas trop grand en créant au préalable une constante matérialisant un âge indépassable `AGE_MAXIMUM`. Ensuite, on vérifie si l'âge est compris entre 0 et l'âge légal, auquel cas l'accès est refusé. Enfin, si toutes les propositions précédentes sont fausses, avec `else`, on autorise l'accès.
 
@@ -352,26 +342,26 @@ L'informatique a pour objectif principal de gérer les tâches répétitives. Da
 
 Une boucle conditionnelles `while` a besoin d'une variable permettant de l'arrêter. Pour bien comprendre, demandons d'afficher les valeurs entières entre 0 et 4. Pour ce, on initialise la boucle avec la variable `compteur`. On lui affecte la valeur 0.
 
-`compteur = 0`
+	compteur = 0
 
-`while compteur < 5:`
+	while compteur < 5:
 
-`	print(compteur)`
+		print(compteur)
 
-`	compteur += 1`
+		compteur += 1
 
 La boucle conditionnelle affiche `0`, réaffecte la variable `compteur` en ajoutant 1, puis on retourne en début de la boucle et on revérifie la condition. `compteur = 1`, il s'affiche alors `1`, puis la variable `compteur` en ajoutant 1, et ainsi de suite. La boucle s'arrête lorsque `compteur = 5` la condition n'est plus respectée, la boucle s'arrête. La console a affiché successivement `1 2 3 4`.
 
 > [!WARNING]
 > Il faut éviter les boucles infinies. Non pas qu'elles soient inutiles, votre ordinateur démarre avec une boucle infinie afin que vous puissiez l'utiliser, mais il est **toujours** prévu un point d'arrêt, l'extinction de votre ordinateur.
 
-`arret = False`
+	arret = False
 
-`while arret == False:`
+	while arret == False:
 
-`	if ` instruction arrêtant la boucle `:`
+		if instruction arrêtant la boucle:
 
-`		arret = True`
+			arret = True
 
 ## Les boucles de parcours de séquence
 
@@ -379,17 +369,17 @@ Dans la suite des séances, nous verrons beaucoup de séquences. Pour l'heure, i
 
 Exemple 1. Parcourir une liste de caractères `A B C`
 
-`for element in "A", "B", "C":`
+	for element in "A", "B", "C":
 
-`	print(element)`
+		print(element)
 
 La variable `element` est une variable temporaire qui se voit successivement affecter `A`, `B` et `C`.
 
 Exemple 2. Parcourir une liste de nombres. Une fonction existe pour créer une suite de nombre, `range(...)`. Elle prend en paramètres le début de la liste de nombres voulue, la dernière valeur, celle-ci étant exclue de la liste, et le pas de l'itération générée. Par exemple, `range(1, 10, 1)` crée la séquence `1 2 3 4 5 6 7 8 9`, mais `range(1, 10, 2)` crée la séquence `2 4 6 8`. Il est à noter que le pas n'est pas obligatoirement un nombre entier et qu'il est possible de ne pas en mettre, dans ce cas, la valeur est par défaut 1.
 
-`for element in range(1, 10, 1):`
+	for element in range(1, 10, 1):
 
-`	print(element)`
+		print(element)
 
 ## Les points d'arrêt des boucles
 
@@ -401,21 +391,21 @@ Les boucles, quel que soit son type, peuvent utiliser deux points d'arrêt :
 
 Pour bien comprendre le résultat, je vous conseille de tester les lignes suivantes :
 
-`for element in range(1, 10, 1):`
+	for element in range(1, 10, 1):
 
-`	if element == 5:`
+		if element == 5:
 
-`		continue;`
+			continue;
 
-`	print(element)`
+		print(element)
 
-`for element in range(1, 10, 1):`
+	for element in range(1, 10, 1):
 
-`	if element == 5:`
+		if element == 5:
 
-`		break;`
+			break;
 
-`	print(element)`
+		print(element)
 
 `continue` réinitialise la boucle. Dans l'exemple, la valeur `5` arrête la boucle et la réinitialise, ce qui affiche `1 2 3 4 6 7 8 9`.
 
@@ -440,51 +430,51 @@ Peu importe la fonction, il faut partir du principe qu'**une fonction n'accompli
 
 Créons une fonction pour afficher `Bonjour ` + le nom demandé. Testons ce code.
 
-`def direBonjour(nom):`
+	def direBonjour(nom):
 
-`	print("Bonjour {}".format(nom))`
+		print("Bonjour {}".format(nom))
 
-`prenom = input("Quel est votre prénom ? ")`
+	prenom = input("Quel est votre prénom ? ")
 
-`prenom = str(prenom)`
+	prenom = str(prenom)
 
-`#Appel de la fonction`
+	#Appel de la fonction
 
-`direBonjour(prenom)`
+	direBonjour(prenom)
 
 Vous avez vu que la fonction n'affiche rien à l'écran, alors que le programme se lit ligne par ligne. Il pose directement la question d'entrée. Lorsque vous répondez, la valeur est placée en paramètre de la fonction `direBonjour()` pour appeler la fonction, et seulement afficher `Bonjour `...` !`
 
 Il est possible de créer un paramètre par défaut dans la fonction.
 
-`def direBonjour2(nom = "Maxime"):`
+	def direBonjour2(nom = "Maxime"):
 
-`	print("Bonjour {}".format(nom))`
+		print("Bonjour {}".format(nom))
 
-`prenom = input("Quel est votre prénom ? ")`
+	prenom = input("Quel est votre prénom ? ")
 
-`direBonjour2()`
-
+	direBonjour2()
+	
 L'absence de réponse étant considéré comme un caractère vide, ici la fonction est appelée sans arguments. Peu importe votre réponse, la valeur par défaut prise et il s'affichera toujours `Bonjour Maxime !`
 
 Il est également possible d'effectuer un retour. *Stricto sensu*, il s'agira d'une vraie fonction au sens informatique, les deux cas précédents étant des procédures.
 
-`def direBonjour3(nom = "Maxime"):`
+	def direBonjour3(nom = "Maxime"):
 
-`	return "Bonjour {}".format(nom)`
+		return "Bonjour {}".format(nom)
 
-`prenom = input("Quel est votre prénom ? ")`
+	prenom = input("Quel est votre prénom ? ")
 
-`print(direBonjour3(str(prenom)))`
+	print(direBonjour3(str(prenom)))
 
 Ici, la fonction prend en considération le paramètre saisi, mais retourne la réponse sans l'afficher. Pour afficher la réponse, il faut utiliser la fonction `print()` en l'appliquant à la fonction appelée.
 
 Pour finir, traitons un cas numérique. Définissons la somme de deux nombres.
 
-`def calculerSomme(nombre1, nombre2):`
+	def calculerSomme(nombre1, nombre2):
 
-`	return nombre1 + nombre2`
+		return nombre1 + nombre2
 
-`print(calculerSomme(1, 2))`
+	print(calculerSomme(1, 2))
 
 Les fonctions peuvent retourner de nombreux types : les types principaux et les types composites qui seront vus dans les prochaines séances.
 
@@ -497,11 +487,11 @@ La modularité dans `Python` permet d'accéder aux bibliothèques natives (ou *l
 
 Pour appeler une bibliothèque, par exemple, les fonctions mathématiques, on écrit :
 
-`import math`
+	import math
 
 puis, on peut appeler la méthode racine carrée `sqrt` :
 
-`print(math.sqrt(2))`
+	print(math.sqrt(2))
 
 ici on demande la racine carrée de 2.
 
@@ -514,15 +504,15 @@ Pour importer une fonction d'un autre fichier `Python`, on peut :
 
 2. y taper
 
-`def test():`
+	def test():
 
-`	print("Bonjour ! Test réussi !")`
+		print("Bonjour ! Test réussi !")
 
 3. taper dans `main.py`
 
-`from toto import test`
+	from toto import test
 
-`test()`
+	test()
 
 Il s'affiche bien en lançant le `Run` : `Bonjour ! Test réussi !`
 

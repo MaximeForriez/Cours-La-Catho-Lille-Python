@@ -12,9 +12,9 @@ Les propriétés désignent les variables propres à l'objet. Les méthodes renv
 
 L'objet `math` possède des constantes `pi` et `e` par exemple. On les appelle en tapant :
 
-`math.pi`
+	math.pi
 
-`math.e`
+	math.e
 
 c'est-à-dire le nom de l'objet et l'attribut appelé.
 
@@ -63,13 +63,13 @@ La particularité de l'objet `math` est qu'il n'est pas nécessaire d'instancier
 
 Pour avoir de l'aide sur un objet connu, on tape
 
-`help(` nom de l'objet `)`
+	help(` nom de l'objet `)
 
 ## Les chaînes de caractères
 
 La chaîne de caractères en `Python` est un objet. L'objet est instancié en affectant une variable.
 
-`nom = "forriez"`
+	nom = "forriez"
 
 Vous venez de créer un objet `string`. On utilise par conséquent des méthodes pour transformer cet objet.
 
@@ -97,7 +97,7 @@ Vous venez de créer un objet `string`. On utilise par conséquent des méthodes
 
 On peut obtenir la longueur d' une chaîne de caractères avec :
 
-`len(nom)`
+	len(nom)
 
 On peut concaténer les chaînes de caractères de deux façons :
 
