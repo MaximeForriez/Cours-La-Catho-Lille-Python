@@ -257,17 +257,17 @@ Les conditions permettent de mettre en œuvre les variables et les opérateurs. 
 
 2. On teste si l'âge entré est strictement inférieur à l'âge légal. Si c'est vrai, on affiche que l'accès est refusé. Si c'est faux, on affiche que l'accès est autorisé.
 
-	age = 15
+		age = 15
 
-	AGE_LEGAL = 18
+		AGE_LEGAL = 18
 
-	if age < AGE_LEGAL:
+		if age < AGE_LEGAL:
 
-		print("Accès refusé")`
+			print("Accès refusé")`
 
-	else:
+		else:
 
-		print("Accès autorisé")
+			print("Accès autorisé")
 
 Cette proposition conditionnelle n'est pas acceptable, car elle ne permet pas de visualiser toutes les erreurs possibles. Par exemple, si vous mettez un âge négatif, la condition traitera l'information comme correcte, alors qu'un âge négatif est impossible. On peut corriger la condition en créant un intervalle. Il est possible de l'écrire de deux manières :
 
