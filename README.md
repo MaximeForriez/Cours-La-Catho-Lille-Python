@@ -1,11 +1,14 @@
 # Initiation à la programmation `Python`
 
-## Cours 2024-2025 Licence Droit-Économie-Gestion, mention Économie et Gestion L3/S5 - T.D. 9h
+## Cours 2024-2025 Licence Droit-Économie-Gestion, mention Économie et Gestion L3/S5 - T.D. 18h
 
 Les étudiants doivent impérativement se créer un compte sur le site https://replit.com/~ afin de ne pas avoir à installer Python sur leur machine personnelle.
 
 > [!IMPORTANT]
-> Replit permet d'avoir accès à l'environnement de code `Python` directement en ligne.
+> `Replit` permet d'avoir accès à l'environnement de code `Python` directement en ligne.
+
+> [!WARNING]
+> `Replit` est devenu payant depuis le 1<sup>er</sup> septembre 2024. Toutefois, vous pouvez y accéder gratuitement, mais vos fichiers ne seront plus sauvegardés une fois votre essai fini.
 
 Le cours est fléché par un programme bien précis.
 
