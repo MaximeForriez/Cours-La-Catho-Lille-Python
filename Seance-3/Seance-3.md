@@ -154,3 +154,26 @@ Avec cette technique, vous avez copié la liste.
 ## La condition `if __name__ == "__main__":`
 
 Cette condition permet de tester un module. Elle doit être obligatoirement à la fin d'un fichier `Python`. L'objectif est de vérifier si les fonctions fonctionnent en dehors du fichier principal.
+
+Pour le tester simplement, il faut utiliser créer deux fichiers : `main.py` et `module.py`.
+
+Dans `module.py`, il faut écrire pour tester la commande :
+
+	def module():
+		print("Je suis le module !")
+
+	if __name__ == "__module__":
+
+		print("Mon script est exécuté directement.")
+
+	else:
+
+		print("Mon script est importé par un autre module.")
+
+avec `"__ __"` contenant le nom de la fonction à exporter, ici `module()`.
+
+Dans `main.py`, il faut d'abord importer le module, ici `import module.py`.
+
+
+
+

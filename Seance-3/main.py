@@ -1,5 +1,6 @@
 #coding:utf8
 import turtle
+import module
 
 #Listes
 #-Création d'une liste
@@ -62,6 +63,11 @@ print(liste3)
 
 for objet in enumerate(liste6):
 	print(objet)
+
+#Test du module créé et de la condition de fin de fichier
+	
+module.module()
+module.module2()
 
 #turtle
 
