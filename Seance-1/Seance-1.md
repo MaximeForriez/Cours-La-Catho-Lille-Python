@@ -189,6 +189,8 @@ Il existe les **opérateurs arithmétiques** :
 
 - le modulo `print(5 % 2)` (sortie: `1`) ;
 
+- la division entière `print(5 / 2)` (sortie: `4`) ;
+
 - l'exponentiation `print(3 ** 2)` (sortie: `9`) ;
 
 À partir des opérateurs arithmétiques `+`, `-`, `*`, `/` et `%`, il est possible de compléter la liste des **opérateurs d'affectation**. Le plus simple est de les tester avec ce code qui reprend les cinq premières opérations précédentes.
