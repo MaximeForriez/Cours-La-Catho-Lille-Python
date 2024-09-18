@@ -265,7 +265,7 @@ Les conditions permettent de mettre en œuvre les variables et les opérateurs. 
 
 		if age < AGE_LEGAL:
 
-			print("Accès refusé")`
+			print("Accès refusé")
 
 		else:
 
@@ -319,7 +319,7 @@ Pour solutionner le problème, il faut construire une solution plus complexe en 
 
 	elif age >= AGE_MAXIMUM:
 
-		print("Soit vous êtes un vénérable ancien ! Soit vous avez écrit n'importe !")
+		print("Soit vous êtes un vénérable ancien ! Soit vous avez écrit n'importe quoi !")
 
 	elif 0 < age < AGE_LEGAL:
 
