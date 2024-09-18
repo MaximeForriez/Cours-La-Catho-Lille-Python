@@ -63,7 +63,7 @@ La particularité de l'objet `math` est qu'il n'est pas nécessaire d'instancier
 
 Pour avoir de l'aide sur un objet connu, on tape
 
-	help(` nom de l'objet `)
+	help( nom de l'objet )
 
 ## Les chaînes de caractères
 
