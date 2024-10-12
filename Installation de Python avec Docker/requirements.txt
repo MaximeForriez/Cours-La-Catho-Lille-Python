@@ -1,8 +1,5 @@
 pypdf
 turtle
-module
-PIL.Image
+pillow
 openpyxl
-os
-shutil
-mathplotlib.pyplot
+matplotlib
