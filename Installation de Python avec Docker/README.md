@@ -80,7 +80,7 @@ Par défaut, j'ai placé tous les paquets nécessaires pour les T.D.
 	- Supprimer les images
 
 >[!WARNING]
-> Aucune image ne peut être supprimée si un conteneur associé est toujours activité
+> Aucune image ne peut être supprimée si un conteneur associé est toujours en activité.
 
 4. `Builds`
 
