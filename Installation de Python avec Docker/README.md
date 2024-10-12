@@ -16,12 +16,12 @@ Si vous voulez vous documenter sur `Docker`, libre à vous, et je ne saurais que
 
 4. Aller dans le dossier racine de vos fichiers `Python` et y ouvrir un terminal
 
-[!TIP]
+>[!TIP]
 > Sous `Windows`, aller dans la barre d'adresse, y taper `cmd` et faire `Entrée` pour ouvrir un terminal.
 
 5. Dans le terminal ouvert, taper `docker-compose up -d`
 
-[!WARNING]
+>[!WARNING]
 > La première installation dure quelques minutes.
 
 6. Dans le dossier `src`, il y a un fichier `main.py`. C'est dans ce fichier que vous taperez votre code
@@ -30,7 +30,7 @@ Si vous voulez vous documenter sur `Docker`, libre à vous, et je ne saurais que
 
 ## Démarrer votre console `Python`
 
-[!TIP]
+>[!TIP]
 > Je vous conseille à chaque exercice d'ouvrir un nouveau dossier racine.
 
 1. Ouvrir le `Docker Desktop`
@@ -43,7 +43,7 @@ Si vous voulez vous documenter sur `Docker`, libre à vous, et je ne saurais que
 
 5. Pour tester votre code, taper `docker-compose run python` (juste cette commande à chaque modification)
 
-[!WARNING]
+>[!WARNING]
 > Le point d'entrée de votre programme sera toujours `main.py`.
 
 ## Arrêter `Python` et `Docker`
@@ -52,7 +52,7 @@ Si vous voulez vous documenter sur `Docker`, libre à vous, et je ne saurais que
 
 2. Éteindre `Docker Desktop`. Dans la fenêtre du logiciel en bas à gauche, il y a une zone verte avec un bouton `Quit Docker Desktop`.
 
-[!WARNING]
+>[!WARNING]
 > Si vous n'effectuez pas cette commande, `Docker` restera ouvert tout le temps. À chaque ouverture de votre ordinateur, il ouvrira le conteneur `Python` que vous avez créé, même si vous ne l'utilisez pas. Dit autrement, des ressources seront consommées inutilement.
 
 ## Installer les paquets
@@ -79,7 +79,7 @@ Par défaut, j'ai placé tous les paquets nécessaires pour les T.D.
 
 	- Supprimer les images
 
-[!WARNING]
+>[!WARNING]
 > Aucune image ne peut être supprimée si un conteneur associé est toujours activité
 
 4. `Builds`
