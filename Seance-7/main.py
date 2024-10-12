@@ -1,2 +1,2 @@
 #coding:utf8
-import mathplotlib.pyplot
+import matplotlib.pyplot
