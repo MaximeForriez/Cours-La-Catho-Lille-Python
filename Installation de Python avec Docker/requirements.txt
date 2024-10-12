@@ -1,0 +1,8 @@
+pypdf
+turtle
+module
+PIL.Image
+openpyxl
+os
+shutil
+mathplotlib.pyplot
