@@ -14,7 +14,7 @@ Si vous voulez vous documenter sur `Docker`, libre à vous, et je ne saurais que
 
 3. Ouvrir le `Docker Desktop` et se connecter à son compte dans l'onglet `Hub`
 
-4. Aller dans le dossier racine de vos fichiers `Python` et y ouvrir un terminal
+4. Aller dans le dossier racine de vos fichiers `Python`, y placer l'architecture de ce GitHub (/src/main.py, docker-compose.yml, Dockerfile, requirements.txt), la conserver tel quel, et y ouvrir un terminal
 
 >[!TIP]
 > Sous `Windows`, aller dans la barre d'adresse, y taper `cmd` et faire `Entrée` pour ouvrir un terminal.
